@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/owner/Documents/Programming/projects/quant_fund/spark
+
+kubectl delete -f setup
