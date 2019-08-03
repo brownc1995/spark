@@ -20,7 +20,7 @@ findspark.init("<spark-dir>/spark")
 sc = pyspark.SparkContext(appName="tests")
 ```
 When you create a spark context, spark will also spin up the web UI
-at [http://localhost:4040].
+at http://localhost:4040.
 
 If at any point you decide that you are finished with spark, run
 ```python
@@ -28,7 +28,7 @@ sc.stop()
 ```
 
 ## Key concepts
-See 
+See notebook [here](examples/intro_to_spark.ipynb).
 
-## Kubernetes
-Needs investigating. See `~/spark/kubernetes`
+## Spark on Kubernetes
+Needs investigating. See `~/spark/kubernetes`.
